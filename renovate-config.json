@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "config:base",
+    ":automergeMinor",
+    ":enableVulnerabilityAlertsWithLabel(security)",
+    ":label(dependencies)",
+    ":maintainLockFilesWeekly",
+    ":pinAllExceptPeerDependencies",
+    ":prConcurrentLimit10",
+    ":prHourlyLimit4",
+    ":rebaseStalePrs",
+    ":semanticCommits",
+    ":semanticPrefixChore",
+    "group:definitelyTyped",
+    "group:jsTest",
+    "group:linters",
+    "npm:unpublishSafe",
+    "workarounds:typesNodeVersioning"
+  ],
+  "gitAuthor": "renovate-bot <renovate-bot@twindigital.io>",
+  "postUpdateOptions": ["yarnDedupeHighest"]
+}
