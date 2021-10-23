@@ -17,6 +17,5 @@
     "npm:unpublishSafe",
     "workarounds:typesNodeVersioning"
   ],
-  "gitAuthor": "renovate-bot <renovate-bot@twindigital.io>",
   "postUpdateOptions": ["yarnDedupeHighest"]
 }
